@@ -1,0 +1,79 @@
+- id: transformer
+  title: Attention Is All You Need
+  authors: Vaswani et al.
+  year: 2017
+  arxiv: '1706.03762'
+  category: Architecture
+  related:
+  - Quadratic dense attention cost in sequence length; attention weights alone are
+    not explanations.
+  status: to_read
+- id: rag
+  title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+  authors: Lewis et al.
+  year: 2020
+  arxiv: '2005.11401'
+  category: Knowledge
+  related:
+  - Retrieval can miss evidence or return stale or misleading text; citations do not
+    ensure entailment.
+  status: to_read
+- id: lora
+  title: 'LoRA: Low-Rank Adaptation of Large Language Models'
+  authors: Hu et al.
+  year: 2021
+  arxiv: '2106.09685'
+  category: Adaptation
+  related:
+  - Low rank may limit adaptation; dataset quality matters; adapters are not a reliable
+    factual database.
+  status: to_read
+- id: cot
+  title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  authors: Wei et al.
+  year: 2022
+  arxiv: '2201.11903'
+  category: Reasoning
+  related:
+  - Reasoning text may be incorrect or unfaithful; benefits depend on model and task.
+  status: to_read
+- id: react
+  title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
+  authors: Yao et al.
+  year: 2022
+  arxiv: '2210.03629'
+  category: Agents
+  related:
+  - Tool errors
+  - prompt injection
+  - accumulating context and repeated actions can degrade results.
+  status: to_read
+- id: lost-middle
+  title: 'Lost in the Middle: How Language Models Use Long Contexts'
+  authors: Liu et al.
+  year: 2023
+  arxiv: '2307.03172'
+  category: Context
+  related:
+  - Results are not a universal U-shaped law; changes in prompt format and model can
+    change the effect.
+  status: to_read
+- id: pagedattention
+  title: Efficient Memory Management for Large Language Model Serving with PagedAttention
+  authors: Kwon et al.
+  year: 2023
+  arxiv: '2309.06180'
+  category: Infrastructure
+  related:
+  - Does not improve semantic reasoning; performance depends on workload and hardware.
+  status: to_read
+- id: graphrag
+  title: 'From Local to Global: A Graph RAG Approach to Query-Focused Summarization'
+  authors: Edge et al.
+  year: 2024
+  arxiv: '2404.16130'
+  category: Knowledge
+  related:
+  - Graph extraction errors
+  - indexing cost and summary loss can propagate; graph retrieval is not always better.
+  status: to_read
