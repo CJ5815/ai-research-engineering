@@ -2,6 +2,8 @@
 
 **Question:** When can an additive score implement a decision rule, and when do we need a different representation?
 
+[Download the Week 1 math handout (PDF)](../downloads/week-01_perceptron_math.pdf) for step-by-step derivations, practice problems, and worked solutions.
+
 **Prerequisites:** Python expressions and loops, vectors, dot products, and basic probability. Use the existing `ai-research` Conda environment and a Python 3.11 Jupyter kernel in VS Code. The labs use NumPy, Matplotlib, and synthetic data.
 
 By the end, you should be able to trace a batch score with its dimensions, update a perceptron by hand, implement and test a binary gate classifier, and diagnose the difference between an optimization problem and a representation limit.
