@@ -38,13 +38,23 @@ nav:
   - Lost Middle: papers/lost-middle.md
   - Pagedattention: papers/pagedattention.md
   - Graphrag: papers/graphrag.md
-- Curriculum: curriculum.md
+- Curriculum:
+  - 20-week syllabus: curriculum.md
+  - Week 1 · Perceptrons: weeks/week-01.md
+  - Original reading path: legacy-curriculum.md
 - Labs:
   - Overview: labs.md
   - Perceptrons: labs/01_perceptron_and_neural_networks.md
   - Attention: labs/02_attention_from_scratch.md
   - Transformer: labs/03_transformer_architecture.md
 - Applications: applications.md
+- Experiments:
+  - Overview: experiments/index.md
+  - Week 1 · Linear separability: experiments/week-01.md
+- Assessments:
+  - Competency rubric: assessments/index.md
+  - Week 1 · Practice bank: assessments/week-01.md
+- Capstone: capstone/index.md
 - Further reading: further-reading.md
 - Glossary: glossary.md
 markdown_extensions:
