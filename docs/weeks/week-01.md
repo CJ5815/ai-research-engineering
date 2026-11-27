@@ -22,7 +22,7 @@ For a six-hour week, read the two Nielsen sections for 30 minutes and run the ex
 ## Reading
 
 - **Required, introductory, 60 minutes with notes.** Michael Nielsen, *Neural Networks and Deep Learning*, Chapter 1, “Perceptrons” and “Sigmoid neurons.” Requires dot products and basic Python. Use the examples to explain what changes when a hard threshold becomes smooth. [Author's source copy](https://github.com/mnielsen/nnadl_site/blob/gh-pages/chap1.html)
-- **Optional, historical, 20 minutes.** Frank Rosenblatt (1958), *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*, *Psychological Review* 65(6), 386–408. Read the introductory motivation and compare its aim with the modern two-feature teaching model. [Original paper](https://doi.org/10.1037/h0042519)
+- **Optional, historical, 20 minutes.** Frank Rosenblatt (1958), *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*, *Psychological Review* 65(6), 386–408. Read the introductory motivation and compare its aim with the modern two-feature teaching model. [Read the Rosenblatt paper (PDF)](../downloads/rosenblatt58.pdf) · [DOI](https://doi.org/10.1037/h0042519)
 
 ## An affine score and a decision boundary
 
