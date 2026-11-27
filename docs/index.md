@@ -2,7 +2,7 @@
 
 *From neural networks to intelligent agents.*
 
-A research-oriented learning hub connecting mathematical foundations, papers, Python experiments and AI systems engineering. Start with the [research roadmap](roadmap.md), browse the [paper library](papers/index.md), or work through the [curriculum](curriculum.md).
+A research-oriented learning hub connecting mathematical foundations, papers, Python experiments and AI systems engineering. Start [Week 1 on perceptrons](weeks/week-01.md) or view the [20-week curriculum](curriculum.md). The [research roadmap](roadmap.md) and [paper library](papers/index.md) show how the methods relate.
 
 ## Four pillars
 

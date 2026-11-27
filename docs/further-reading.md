@@ -13,7 +13,7 @@
 | Toolformer | [arXiv](https://arxiv.org/abs/2302.04761) |
 | Tree of Thoughts | [arXiv](https://arxiv.org/abs/2305.10601) |
 | MemGPT | [arXiv](https://arxiv.org/abs/2310.08560) |
-| Self-RAG | [arXiv](https://arxiv.org/abs/2310.14135) |
+| Self-RAG | [arXiv](https://arxiv.org/abs/2310.11511) |
 | QLoRA | [arXiv](https://arxiv.org/abs/2305.14314) |
 | DPO | [arXiv](https://arxiv.org/abs/2305.18290) |
 | RAGAS | [arXiv](https://arxiv.org/abs/2309.15217) |
