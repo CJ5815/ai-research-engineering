@@ -2,7 +2,7 @@
 
 **Edge et al. · 2024 (initial preprint) · Knowledge**
 
-[Original paper](https://arxiv.org/abs/2404.16130) · [PDF](https://arxiv.org/pdf/2404.16130)
+[Original paper](https://arxiv.org/abs/2404.16130) · [PDF](https://arxiv.org/pdf/2404.16130) · [Local PDF](2404.16130v2.pdf)
 
 ## Research question
 

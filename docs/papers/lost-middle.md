@@ -2,7 +2,7 @@
 
 **Liu et al. · 2023 (initial preprint) · Context**
 
-[Original paper](https://arxiv.org/abs/2307.03172) · [PDF](https://arxiv.org/pdf/2307.03172)
+[Original paper](https://arxiv.org/abs/2307.03172) · [PDF](https://arxiv.org/pdf/2307.03172) · [Local PDF](2307.03172v3.pdf) · [TACL PDF](2024.tacl-1.9.pdf)
 
 ## Research question
 

@@ -2,7 +2,7 @@
 
 **Yao et al. · 2022 (initial preprint) · Agents**
 
-[Original paper](https://arxiv.org/abs/2210.03629) · [PDF](https://arxiv.org/pdf/2210.03629)
+[Original paper](https://arxiv.org/abs/2210.03629) · [PDF](https://arxiv.org/pdf/2210.03629) · [Local PDF](2210.03629v3.pdf)
 
 ## Research question
 

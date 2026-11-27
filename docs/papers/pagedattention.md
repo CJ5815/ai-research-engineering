@@ -2,7 +2,7 @@
 
 **Kwon et al. · 2023 (initial preprint) · Infrastructure**
 
-[Original paper](https://arxiv.org/abs/2309.06180) · [PDF](https://arxiv.org/pdf/2309.06180)
+[Original paper](https://arxiv.org/abs/2309.06180) · [PDF](https://arxiv.org/pdf/2309.06180) · [Local PDF](2309.06180v1.pdf)
 
 ## Research question
 

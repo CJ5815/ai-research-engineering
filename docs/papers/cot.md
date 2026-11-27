@@ -2,7 +2,7 @@
 
 **Wei et al. · 2022 (initial preprint) · Reasoning**
 
-[Original paper](https://arxiv.org/abs/2201.11903) · [PDF](https://arxiv.org/pdf/2201.11903)
+[Original paper](https://arxiv.org/abs/2201.11903) · [PDF](https://arxiv.org/pdf/2201.11903) · [Local PDF](2201.11903v6.pdf)
 
 ## Research question
 

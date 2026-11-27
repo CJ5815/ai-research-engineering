@@ -2,7 +2,7 @@
 
 **Hu et al. · 2021 (initial preprint) · Adaptation**
 
-[Original paper](https://arxiv.org/abs/2106.09685) · [PDF](https://arxiv.org/pdf/2106.09685)
+[Original paper](https://arxiv.org/abs/2106.09685) · [PDF](https://arxiv.org/pdf/2106.09685) · [Local PDF](2106.09685v2.pdf)
 
 ## Research question
 

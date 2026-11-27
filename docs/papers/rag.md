@@ -2,7 +2,7 @@
 
 **Lewis et al. · 2020 (initial preprint) · Knowledge**
 
-[Original paper](https://arxiv.org/abs/2005.11401) · [PDF](https://arxiv.org/pdf/2005.11401)
+[Original paper](https://arxiv.org/abs/2005.11401) · [PDF](https://arxiv.org/pdf/2005.11401) · [Local PDF](2005.11401v4.pdf)
 
 ## Research question
 

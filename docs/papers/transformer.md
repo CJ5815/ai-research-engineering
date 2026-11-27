@@ -2,7 +2,7 @@
 
 **Vaswani et al. · 2017 (initial preprint) · Architecture**
 
-[Original paper](https://arxiv.org/abs/1706.03762) · [PDF](https://arxiv.org/pdf/1706.03762)
+[Original paper](https://arxiv.org/abs/1706.03762) · [PDF](https://arxiv.org/pdf/1706.03762) · [Local PDF](1706.03762v7.pdf)
 
 ## Research question
 
