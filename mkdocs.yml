@@ -20,6 +20,7 @@ nav:
 - Home: index.md
 - Roadmap: roadmap.md
 - Research map: research-map.md
+- Paper relationships: paper-relationships.md
 - Foundations:
   - Neural networks and attention: chapters/foundations.md
   - Model training and adaptation: chapters/adaptation.md
@@ -61,6 +62,7 @@ extra_javascript:
 - javascripts/mathjax.js
 - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 - javascripts/map.js
+- javascripts/paper-graph.js
 extra_css:
 - stylesheets/extra.css
 strict: true
