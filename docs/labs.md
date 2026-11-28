@@ -1,6 +1,6 @@
 # Python laboratory
 
-Start the [Week 1 lesson](weeks/week-01.md) for a guided path through the first lab, experiment, and exercises. Continue with [Week 2 on backpropagation](weeks/week-02.md). The later attention and Transformer labs are available as reference material.
+Open a ready lesson from the [syllabus](curriculum.md) for its assigned reading, experiment, and assessment. Use the core notebook for each ready week. Reference labs are available for preview while their weekly modules are in development.
 
 | Week | Role | Notebook |
 |---|---|---|

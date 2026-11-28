@@ -1,6 +1,6 @@
 # Investment research capstone
 
-**Status:** Planned. The existing [application design](../applications.md) sketches the research workflow.
+**Status:** Planned. The existing [application design](../applications.md) sketches the research workflow. The [syllabus](../curriculum.md) shows where each component is developed, and the [Week 20 checkpoint](../assessments/index.md#checkpoint-20) defines the final evidence.
 
 Build a local system that answers a point-in-time investment research question using public or synthetic documents. It should retrieve evidence with stable citations, call one read-only numerical tool, and return a structured brief with a thesis, supporting and contradictory evidence, risks, catalysts, horizon, and uncertainty. Verify the source dates and calculations before human review.
 

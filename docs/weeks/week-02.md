@@ -4,10 +4,12 @@
 
 Start with [Week 1’s affine score and binary loss](week-01.md#a-smooth-score-and-a-loss). You’ll learn to derive a two-layer network’s gradients with dimensions, verify them independently, and evaluate when a hidden layer improves on a linear baseline.
 
+[Reading](#reading) · [Derivation](#forward-pass-with-dimensions) · [Core lab and experiment](#lab-experiment-and-independent-work) · [Assessment and evidence](#assess-and-record-evidence)
+
 | Block | Minutes | Work |
 |---|---:|---|
 | Theory and math | 90 | Derive the batch gradients and trace two small cases by hand. |
-| Reading | 60 | Read the three excerpts below and write one sentence about each. |
+| Reading | 60 | Read the three assigned excerpts in the [reading guide](../chapters/ai-foundations-and-reading-guide.md#week-02-reading) and write one sentence about each. |
 | Lab and mini-project | 120 | Run the NumPy notebook, check all gradient blocks, and test an unseen batch. Run the matched CPU PyTorch comparison if available. |
 | Experiment | 60 | Compare linear and nonlinear models and diagnose one validation error. |
 | Assessment | 60 | Work the required mix of questions and exercises in the [practice bank](../assessments/week-02.md). |
@@ -17,10 +19,7 @@ For six hours, spend 30 minutes on the Prince gradient excerpt and notes, and 30
 
 ## Reading
 
-- **Required, 15 minutes.** Simon Prince, *Understanding Deep Learning* (2023), Ch. 5 on binary classification loss. Review the Week 1 Bernoulli likelihood first. Explain why working with logits is numerically useful. [Prince’s book and companion notebooks](https://udlbook.github.io/udlbook/)
-- **Required, 25 minutes.** Prince, Ch. 7 on computing gradients. Trace the small example and identify which derivative each layer needs from the layer above it. [Prince’s book and companion notebooks](https://udlbook.github.io/udlbook/)
-- **Required, 20 minutes.** Russell and Norvig, *Artificial Intelligence: A Modern Approach*, third edition, selected §§18.4, 18.7.3, and 18.7.4. Focus on the distinction between fitting a training set and selecting a model with validation data. [Third-edition contents](https://aima.cs.berkeley.edu/3rd-ed/contents.html)
-- **Optional, 15 minutes.** Use the PyTorch documentation to identify the operations that build the computation graph and produce each parameter’s gradient. [PyTorch autograd mechanics](https://docs.pytorch.org/docs/stable/notes/autograd.html)
+Follow the [Week 2 assignments in the AI Foundations and Reading Guide](../chapters/ai-foundations-and-reading-guide.md#week-02-reading) for the Prince and Russell–Norvig excerpts and timing. While you read, identify the gradient each layer receives and explain why a validation set is useful when choosing a model.
 
 ## Forward pass with dimensions
 
@@ -94,10 +93,16 @@ np.testing.assert_allclose(h.T @ dz, [[0.375], [-0.75]])
 
 ## Lab, experiment, and independent work
 
-1. Open the [Week 2 notebook](../downloads/week-02_backpropagation.ipynb) in the existing Python 3.11 environment. Run the cells in order. NumPy and Matplotlib cover the full core lab. The notebook also includes a CPU PyTorch gradient and training comparison that runs when PyTorch is installed.
+1. Open the [core Week 2 notebook](../downloads/week-02_backpropagation.ipynb) in the existing Python 3.11 environment. Run the cells in order. NumPy and Matplotlib cover the full core lab. The notebook also includes a CPU PyTorch gradient and training comparison that runs when PyTorch is installed.
 2. Trace the worked case, then verify all four gradient blocks using centered finite differences on a batch away from ReLU’s kink. Explain what changes if your perturbation crosses zero or is so small that rounding dominates.
 3. Run the [linear versus nonlinear experiment](../experiments/week-02.md). Explain the curves and inspect one missed synthetic review case. For the longer route, change one factor while keeping the split and training budget fixed.
 4. Build an independent batch with both labels and with a hidden unit inactive on only some rows. Submit the inputs, gradient shapes, numeric tolerance, and a short explanation. Demonstrate that your finite-difference check catches an extra division by batch size. Use the [assessment](../assessments/week-02.md) to check transfer.
+
+## Assess and record evidence
+
+Complete the required subset in the [Week 2 practice bank](../assessments/week-02.md). Save the unfamiliar input, the manual and numerical gradient checks, and an explanation of an error your check catches. Use the [evidence record](../assessments/index.md#record-your-evidence) to identify your independent contribution and one next gap.
+
+[Preview Week 3’s reading](../chapters/ai-foundations-and-reading-guide.md#week-03-reading) · [View the Week 5 checkpoint](../assessments/index.md#checkpoint-05)
 
 ## Investment research perspective
 
