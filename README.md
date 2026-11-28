@@ -1,6 +1,8 @@
 # AI Research & Engineering
 
-A MkDocs learning website and local Python laboratory. Start with the [20-week curriculum](docs/curriculum.md) and [Week 1](docs/weeks/week-01.md). Browse the eight foundational paper guides, six introductory chapters, and interactive research maps.
+Start with the [20-week syllabus](docs/curriculum.md) and choose a ready lesson. Each week links to its assigned excerpts in the [AI Foundations and Reading Guide](docs/chapters/ai-foundations-and-reading-guide.md), a core notebook, an experiment, and an assessment. [Week 1](docs/weeks/week-01.md) covers perceptrons and [Week 2](docs/weeks/week-02.md) builds a small neural network.
+
+Use [GitHub Pages](https://cj5815.github.io/ai-research-engineering/) to read the course and VS Code with Jupyter to run the labs. Keep learning evidence in [PROGRESS.md](PROGRESS.md) or private Obsidian notes. The [competency rubric](docs/assessments/index.md) explains what to demonstrate at each checkpoint.
 
 ## Mac / VS Code quick start
 

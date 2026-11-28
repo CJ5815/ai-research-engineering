@@ -1,5 +1,7 @@
 # Further reading
 
+For assigned textbook sections, paper excerpts, and their place in the syllabus, use the [AI Foundations and Reading Guide](chapters/ai-foundations-and-reading-guide.md).
+
 | Paper | Link |
 |---|---|
 | Neural Machine Translation by Jointly Learning to Align and Translate | [arXiv](https://arxiv.org/abs/1409.0473) |

@@ -8,10 +8,14 @@
 
 By the end, you should be able to trace a batch score with its dimensions, update a perceptron by hand, implement and test a binary gate classifier, and diagnose the difference between an optimization problem and a representation limit.
 
+**Learning objectives.** Trace an affine score and update with their dimensions, implement and test a perceptron, and explain what the AND–XOR comparison reveals about feature representation.
+
+[Reading](#reading) · [Derivation](#an-affine-score-and-a-decision-boundary) · [Core lab and experiment](#lab-and-independent-mini-project) · [Assessment and evidence](#assess-and-record-evidence)
+
 | Block | Minutes | Work |
 |---|---:|---|
 | Theory and math | 90 | Try the short [entry diagnostic](../assessments/week-01.md#entry-diagnostic), then derive the score, update, and binary cross-entropy below. |
-| Reading | 60 | Read Nielsen’s Chapter 1 sections on perceptrons and sigmoid neurons. Sketch a boundary and summarize why a smooth activation matters for gradient-based learning. |
+| Reading | 60 | Open the [assigned reading](#reading), then sketch a boundary and explain why a smooth activation matters. |
 | Lab and mini-project | 120 | Run the original lab, follow the training and geometry notebook, then implement and test your own batch scorer. |
 | Experiment | 60 | Run and interpret the [paired gate experiment](../experiments/week-01.md). |
 | Assessment | 60 | Complete the required subset in the [practice bank](../assessments/week-01.md). |
@@ -21,8 +25,11 @@ For a six-hour week, read the two Nielsen sections for 30 minutes and run the ex
 
 ## Reading
 
-- **Required, introductory, 60 minutes with notes.** Michael Nielsen, *Neural Networks and Deep Learning*, Chapter 1, “Perceptrons” and “Sigmoid neurons.” Requires dot products and basic Python. Use the examples to explain what changes when a hard threshold becomes smooth. [Author's source copy](https://github.com/mnielsen/nnadl_site/blob/gh-pages/chap1.html)
-- **Optional, historical, 20 minutes.** Frank Rosenblatt (1958), *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*, *Psychological Review* 65(6), 386–408. Read the introductory motivation and compare its aim with the modern two-feature teaching model. [Read the Rosenblatt paper (PDF)](../downloads/rosenblatt58.pdf) · [DOI](https://doi.org/10.1037/h0042519)
+Follow the [Week 1 assignments in the AI Foundations and Reading Guide](../chapters/ai-foundations-and-reading-guide.md#week-01-reading) for excerpts and timing. Sketch a decision boundary as you read and explain what changes when a hard threshold becomes smooth.
+
+Open [Nielsen’s Chapter 1](http://neuralnetworksanddeeplearning.com/chap1.html) for the required reading.
+
+For optional historical context, compare the modern two-feature model with the motivation in Frank Rosenblatt (1958), *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*, *Psychological Review* 65(6), 386–408. [Paper PDF](../downloads/rosenblatt58.pdf) · [DOI](https://doi.org/10.1037/h0042519)
 
 ## An affine score and a decision boundary
 
@@ -71,9 +78,15 @@ Because $dp/dz=p(1-p)$ and $d\ell/dp=-y/p+(1-y)/(1-p)$, the chain rule gives $d\
 
 ## Lab and independent mini-project
 
-1. Run the [original NAND and sigmoid notebook](../downloads/01_perceptron_and_neural_networks.ipynb) to connect a truth table to scores and loss.
-2. Open the [Week 1 training and diagnosis notebook](../downloads/week-01_perceptron_practice.ipynb). Trace the trainer and inspect its boundary and error plots. Finish the guided experiment before reading the [experiment record](../experiments/week-01.md).
+1. For an optional warm-up, run the [NAND and sigmoid notebook](../downloads/week-01_perceptron_warmup.ipynb) to connect a truth table to scores and loss.
+2. Open the [core Week 1 training and diagnosis notebook](../downloads/week-01_perceptron_practice.ipynb). Trace the trainer and inspect its boundary and error plots. Finish the guided experiment before reading the [experiment record](../experiments/week-01.md).
 3. Build a NumPy classifier independently. In the same local environment, run your four-row tests from a fresh kernel. Verify AND and OR on every row, repeat after a row permutation, and include a boundary-tie case and a shape check. Explain XOR with inequalities or geometry. Submit your code, results, and a short explanation. Use the [practice bank](../assessments/week-01.md) to test transfer.
+
+## Assess and record evidence
+
+Complete the required subset in the [Week 1 practice bank](../assessments/week-01.md). Save your gate checks and a short explanation of the XOR limit under a changed feature representation. Note one implementation error you found or an input your checks could miss. Use the [evidence record](../assessments/index.md#record-your-evidence) to track what you demonstrated independently.
+
+[Continue to Week 2 · Backpropagation](week-02.md) · [View the Week 5 checkpoint](../assessments/index.md#checkpoint-05)
 
 ## Investment research and decision-making
 

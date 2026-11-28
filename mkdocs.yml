@@ -18,45 +18,52 @@ theme:
   - content.code.copy
 nav:
 - Home: index.md
-- Roadmap: roadmap.md
-- Research map: research-map.md
-- Paper relationships: paper-relationships.md
-- Foundations:
-  - Neural networks and attention: chapters/foundations.md
-  - Model training and adaptation: chapters/adaptation.md
-  - Knowledge, memory and context: chapters/knowledge.md
-  - Reasoning and agents: chapters/reasoning.md
-  - Inference and systems engineering: chapters/systems.md
-  - Evaluation and testing: chapters/evaluation.md
-- Papers:
-  - Catalog: papers/index.md
-  - Transformer: papers/transformer.md
-  - Rag: papers/rag.md
-  - Lora: papers/lora.md
-  - Cot: papers/cot.md
-  - React: papers/react.md
-  - Lost Middle: papers/lost-middle.md
-  - Pagedattention: papers/pagedattention.md
-  - Graphrag: papers/graphrag.md
-- Curriculum:
+- Course:
   - 20-week syllabus: curriculum.md
+  - AI Foundations and Reading Guide: chapters/ai-foundations-and-reading-guide.md
   - Week 1 · Perceptrons: weeks/week-01.md
+  - Week 2 · Backpropagation: weeks/week-02.md
   - Original reading path: legacy-curriculum.md
-- Labs:
-  - Overview: labs.md
-  - Perceptrons: labs/01_perceptron_and_neural_networks.md
-  - Attention: labs/02_attention_from_scratch.md
-  - Transformer: labs/03_transformer_architecture.md
-- Applications: applications.md
-- Experiments:
-  - Overview: experiments/index.md
-  - Week 1 · Linear separability: experiments/week-01.md
-- Assessments:
-  - Competency rubric: assessments/index.md
-  - Week 1 · Practice bank: assessments/week-01.md
-- Capstone: capstone/index.md
-- Further reading: further-reading.md
-- Glossary: glossary.md
+- Labs & Assessments:
+  - Notebook index: labs.md
+  - Lab notes:
+    - Week 1 · Perceptron warm-up: labs/01_perceptron_and_neural_networks.md
+    - Week 4 · Attention: labs/02_attention_from_scratch.md
+    - Week 5 · Transformer: labs/03_transformer_architecture.md
+  - Experiments:
+    - Overview: experiments/index.md
+    - Week 1 · Linear separability: experiments/week-01.md
+    - Week 2 · Nonlinear baseline: experiments/week-02.md
+  - Assessments:
+    - Competency rubric and checkpoints: assessments/index.md
+    - Week 1 · Practice bank: assessments/week-01.md
+    - Week 2 · Practice bank: assessments/week-02.md
+- Research Library:
+  - Roadmap: roadmap.md
+  - Research map: research-map.md
+  - Paper relationships: paper-relationships.md
+  - Reference chapters:
+    - Neural networks and attention: chapters/foundations.md
+    - Model training and adaptation: chapters/adaptation.md
+    - Knowledge, memory and context: chapters/knowledge.md
+    - Reasoning and agents: chapters/reasoning.md
+    - Inference and systems engineering: chapters/systems.md
+    - Evaluation and testing: chapters/evaluation.md
+  - Papers:
+    - Catalog: papers/index.md
+    - Transformer: papers/transformer.md
+    - RAG: papers/rag.md
+    - LoRA: papers/lora.md
+    - Chain-of-Thought: papers/cot.md
+    - ReAct: papers/react.md
+    - Lost in the Middle: papers/lost-middle.md
+    - PagedAttention: papers/pagedattention.md
+    - GraphRAG: papers/graphrag.md
+  - Further reading: further-reading.md
+  - Glossary: glossary.md
+- Capstone:
+  - Investment research capstone: capstone/index.md
+  - Applications: applications.md
 markdown_extensions:
 - admonition
 - tables

@@ -1,6 +1,6 @@
 # Reading brief · Title
 
-Give the full citation, primary URL, and verified preprint and publication dates.
+Give the full citation and primary URL. For textbooks, name the edition and verify the assigned sections against its table of contents. For papers, distinguish initial preprint and publication dates. Assign only the excerpts that fit the reading block.
 
 | Priority | Section or figure | Minutes | Level and prerequisites | Purpose |
 |---|---|---:|---|---|
