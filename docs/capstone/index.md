@@ -7,7 +7,7 @@ Build a local system that answers a point-in-time investment research question u
 | Weeks | Milestone |
 |---|---|
 | 7, 9–10 | Define the report contract and build the labeled evidence and RAG baselines. |
-| 11–15 | Test context and conflicts, add numerical verification, and compare fixed and tool-enabled workflows. |
+| 11–15 | Test context and conflicts, add a verified search baseline and Bayesian forecast experiment, then compare fixed and tool-enabled workflows. |
 | 16–18 | Add bounded state and retries, measure serving costs, and freeze the held-out evaluation. |
 | 19 | Integrate and rehearse on development cases. |
 | 20 | Compare standalone generation, RAG, a fixed workflow, and a verified agent on the frozen set. Present a reproducible demo and an executive briefing. |

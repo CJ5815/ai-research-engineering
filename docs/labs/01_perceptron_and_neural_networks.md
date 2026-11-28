@@ -1,6 +1,6 @@
-# Perceptrons and neural networks
+# Week 1 · Optional perceptron warm-up
 
-[Download notebook](../downloads/01_perceptron_and_neural_networks.ipynb)
+[Download notebook](../downloads/week-01_perceptron_warmup.ipynb)
 
 ## NAND gate
 A step neuron computes $a=1$ if $w^Tx+b>0$, otherwise zero.

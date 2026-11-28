@@ -22,6 +22,7 @@ nav:
 - Research map: research-map.md
 - Paper relationships: paper-relationships.md
 - Foundations:
+  - AI Foundations and Reading Guide: chapters/ai-foundations-and-reading-guide.md
   - Neural networks and attention: chapters/foundations.md
   - Model training and adaptation: chapters/adaptation.md
   - Knowledge, memory and context: chapters/knowledge.md
@@ -41,19 +42,22 @@ nav:
 - Curriculum:
   - 20-week syllabus: curriculum.md
   - Week 1 · Perceptrons: weeks/week-01.md
+  - Week 2 · Backpropagation: weeks/week-02.md
   - Original reading path: legacy-curriculum.md
 - Labs:
   - Overview: labs.md
-  - Perceptrons: labs/01_perceptron_and_neural_networks.md
-  - Attention: labs/02_attention_from_scratch.md
-  - Transformer: labs/03_transformer_architecture.md
+  - Week 1 · Perceptron warm-up: labs/01_perceptron_and_neural_networks.md
+  - Week 4 · Attention: labs/02_attention_from_scratch.md
+  - Week 5 · Transformer: labs/03_transformer_architecture.md
 - Applications: applications.md
 - Experiments:
   - Overview: experiments/index.md
   - Week 1 · Linear separability: experiments/week-01.md
+  - Week 2 · Nonlinear baseline: experiments/week-02.md
 - Assessments:
   - Competency rubric: assessments/index.md
   - Week 1 · Practice bank: assessments/week-01.md
+  - Week 2 · Practice bank: assessments/week-02.md
 - Capstone: capstone/index.md
 - Further reading: further-reading.md
 - Glossary: glossary.md

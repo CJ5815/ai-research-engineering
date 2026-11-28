@@ -21,7 +21,9 @@ For a six-hour week, read the two Nielsen sections for 30 minutes and run the ex
 
 ## Reading
 
-- **Required, introductory, 60 minutes with notes.** Michael Nielsen, *Neural Networks and Deep Learning*, Chapter 1, “Perceptrons” and “Sigmoid neurons.” Requires dot products and basic Python. Use the examples to explain what changes when a hard threshold becomes smooth. [Author's source copy](https://github.com/mnielsen/nnadl_site/blob/gh-pages/chap1.html)
+The [AI Foundations and Reading Guide](../chapters/ai-foundations-and-reading-guide.md#weeks-15-model-foundations) includes an optional Russell and Norvig cross-reference for threshold and logistic classifiers.
+
+- **Required, introductory, 60 minutes with notes.** Michael Nielsen, *Neural Networks and Deep Learning*, Chapter 1, “Perceptrons” and “Sigmoid neurons.” Requires dot products and basic Python. Use the examples to explain what changes when a hard threshold becomes smooth. [Read Chapter 1 online](http://neuralnetworksanddeeplearning.com/chap1.html)
 - **Optional, historical, 20 minutes.** Frank Rosenblatt (1958), *The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain*, *Psychological Review* 65(6), 386–408. Read the introductory motivation and compare its aim with the modern two-feature teaching model. [Read the Rosenblatt paper (PDF)](../downloads/rosenblatt58.pdf) · [DOI](https://doi.org/10.1037/h0042519)
 
 ## An affine score and a decision boundary
@@ -71,8 +73,8 @@ Because $dp/dz=p(1-p)$ and $d\ell/dp=-y/p+(1-y)/(1-p)$, the chain rule gives $d\
 
 ## Lab and independent mini-project
 
-1. Run the [original NAND and sigmoid notebook](../downloads/01_perceptron_and_neural_networks.ipynb) to connect a truth table to scores and loss.
-2. Open the [Week 1 training and diagnosis notebook](../downloads/week-01_perceptron_practice.ipynb). Trace the trainer and inspect its boundary and error plots. Finish the guided experiment before reading the [experiment record](../experiments/week-01.md).
+1. For an optional warm-up, run the [NAND and sigmoid notebook](../downloads/week-01_perceptron_warmup.ipynb) to connect a truth table to scores and loss.
+2. Open the [core Week 1 training and diagnosis notebook](../downloads/week-01_perceptron_practice.ipynb). Trace the trainer and inspect its boundary and error plots. Finish the guided experiment before reading the [experiment record](../experiments/week-01.md).
 3. Build a NumPy classifier independently. In the same local environment, run your four-row tests from a fresh kernel. Verify AND and OR on every row, repeat after a row permutation, and include a boundary-tie case and a shape check. Explain XOR with inequalities or geometry. Submit your code, results, and a short explanation. Use the [practice bank](../assessments/week-01.md) to test transfer.
 
 ## Investment research and decision-making

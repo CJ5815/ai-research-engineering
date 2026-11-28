@@ -1,6 +1,6 @@
 # AI Research & Engineering
 
-A MkDocs learning website and local Python laboratory. Start with the [20-week curriculum](docs/curriculum.md) and [Week 1](docs/weeks/week-01.md). Browse the eight foundational paper guides, six introductory chapters, and interactive research maps.
+A MkDocs learning website and local Python laboratory. Start with the [20-week curriculum](docs/curriculum.md) and its [AI Foundations and Reading Guide](docs/chapters/ai-foundations-and-reading-guide.md). [Week 1](docs/weeks/week-01.md) covers perceptrons and [Week 2](docs/weeks/week-02.md) builds a small neural network. Browse the eight foundational paper guides, six introductory chapters, and interactive research maps.
 
 ## Mac / VS Code quick start
 

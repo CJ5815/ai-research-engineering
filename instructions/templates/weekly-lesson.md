@@ -4,7 +4,7 @@ State the central question, prerequisites, learning environment, measurable obje
 
 ## Schedule and reading
 
-Budget 90 minutes of theory, 60 of reading, 120 of lab, 60 of experiments, 60 of assessment, and 30 of notes. Specify the six-hour route and an optional eighth-hour activity. Link the assigned reading brief with priority sections and estimated times.
+Budget 90 minutes of theory, 60 of reading, 120 of lab, 60 of experiments, 60 of assessment, and 30 of notes. Specify the six-hour route and an optional eighth-hour activity. Link the assigned reading brief with edition, priority excerpts, estimated times, and a question for each required reading. Tie a classical foundation to the current lab when it helps explain the technique or a baseline.
 
 ## Theory and worked examples
 
@@ -12,7 +12,7 @@ Motivate the method and give historical context. Define notation, assumptions, d
 
 ## Lab, experiment, and assessment
 
-Link the core notebook and reproducibility instructions. State the independent mini-project, acceptance checks, experiment and baseline, and assessment subset. Identify optional extensions.
+Link the core notebook and reproducibility instructions. State the independent mini-project, acceptance checks with example input or expected invariants, experiment and baseline, and assessment subset. Identify optional extensions.
 
 ## Professional perspective
 

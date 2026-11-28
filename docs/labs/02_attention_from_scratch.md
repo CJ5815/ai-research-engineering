@@ -1,6 +1,6 @@
 # Scaled dot-product attention
 
-[Download notebook](../downloads/02_attention_from_scratch.ipynb)
+[Download notebook](../downloads/week-04_attention_from_scratch.ipynb)
 
 ## Queries, keys and values
 Compute $QK^T/\sqrt{d_k}$, normalize each row and multiply by $V$.

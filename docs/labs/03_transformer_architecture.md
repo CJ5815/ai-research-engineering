@@ -1,6 +1,6 @@
 # Toy decoder Transformer forward pass
 
-[Download notebook](../downloads/03_transformer_architecture.ipynb)
+[Download notebook](../downloads/week-05_transformer_architecture.ipynb)
 
 ## Model design
 A single pre-normalized decoder block with two attention heads, residual connections and a feedforward network. Random weights; no training. This is educational, not a pretrained model.

@@ -13,4 +13,4 @@ Start with the [Week 1 entry diagnostic and practice bank](week-01.md). Attempt 
 | 6 · Design and innovation | Defend a design under constraints and propose a test that could disconfirm its advantage. |
 | 7 · Teaching and thought leadership | Teach the method or publish a synthesis with reproducible evidence and justified claims. |
 
-Checkpoint weeks are 5, 10, 15, and 20. Assess each competency separately. A correct worked example supports understanding when you can reproduce the reasoning under a changed assumption. Record generated material, study, practice, and demonstrated evidence in the repository progress record.
+The [Week 2 practice bank](week-02.md) checks the chain rule, array shapes, and independent gradient verification. Checkpoint weeks are 5, 10, 15, and 20. Assess each competency separately. A correct worked example supports understanding when you can reproduce the reasoning under a changed assumption. Record generated material, study, practice, and demonstrated evidence in the repository progress record.
